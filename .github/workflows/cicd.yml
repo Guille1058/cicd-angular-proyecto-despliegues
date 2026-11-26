@@ -35,7 +35,7 @@ jobs:
         if: github.event_name == 'push'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/cicd-angular-proyecto-despliegues/browser
+          path: dist/cicd-angular/browser
 
   deploy:
     needs: build
